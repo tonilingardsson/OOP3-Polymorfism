@@ -4,7 +4,6 @@ namespace Polymorphism
     public abstract class Geometry
     {
         // Create an abstract method called Area()
-        public abstract double Area()
-        {}
+        public abstract double Area();
     }
 }
