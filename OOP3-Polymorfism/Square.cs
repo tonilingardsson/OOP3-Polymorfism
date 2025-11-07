@@ -11,6 +11,12 @@ namespace Polymorphism
         Side = 8; 
     }
 
+    // Parameterized constructor 
+    public Square(double side)
+    {
+      Side = side;
+    }
+
     // Declaring Square's method for Area
     public override double Area()
     {
