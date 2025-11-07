@@ -17,6 +17,12 @@ namespace Polymorphism
             Radius = 4; // Fixed value 
         }
 
+        // Parameterized constructor - dynamic value
+        public Circle(double radius)
+        {
+            Radius = radius;  
+        }
+
     // Declaring Circle's method for Area
         public override double Area()
         {
