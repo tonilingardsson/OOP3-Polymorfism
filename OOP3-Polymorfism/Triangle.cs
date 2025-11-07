@@ -19,6 +19,13 @@ namespace Polymorphism
             Height = 4;
         }
 
+        // Parameterized method
+        public Triangle(double _base, double height)
+        {
+            Base = _base;
+            Height = height;
+        }
+
         // Declaring Triangle's method for its area
         public override double Area()
         {
