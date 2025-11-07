@@ -12,11 +12,18 @@ namespace Polymorphism
         public double Width {get; set;}
         public double Height {get; set;}
 
-        // Constructor for Rectangle
+        // Constructor for Rectangle - fixed values
         public Rectangle()
         {
             Width = 5.2;
             Height = 4.55;
+        }
+
+        // Parameterized constructor
+        public Rectangle(double width, double height)
+        {
+            Width = width;
+            Height = height;
         }
 
         // Declaring Rectangle's method for Area
