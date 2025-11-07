@@ -33,5 +33,12 @@ namespace Polymorphism
             return Width * Height;
         }
 
+        // Rectangle's Perimeter method
+        public override double Perimeter()
+        {
+            // Rectangles perimeter is 2 x width + 2 x height
+            return 2 * Width + 2 * Height;
+        }
+
     }
 }

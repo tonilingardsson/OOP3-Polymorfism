@@ -23,11 +23,18 @@ namespace Polymorphism
             Radius = radius;  
         }
 
-    // Declaring Circle's method for Area
+        // Declaring Circle's method for Area
         public override double Area()
         {
             // Circle's area is π x r^2
             return Math.PI * Radius * Radius;
+        }
+
+        // Perimeter method
+        public override double Perimeter()
+        {
+            // Circle's perimeter is 2π x radius
+            return 2 * Math.PI * Radius;
         }
     }
 }

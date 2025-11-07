@@ -24,6 +24,7 @@
             {
                 // shape.Area() calls the correct override for each shape type
                 Console.WriteLine($"Area of {shape.GetType().Name}: {shape.Area():F2}");
+                Console.WriteLine($"Perimeter of {shape.GetType().Name}: {shape.Perimeter():F2}");
             }
         }
     }

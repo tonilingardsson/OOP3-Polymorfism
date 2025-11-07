@@ -23,5 +23,12 @@ namespace Polymorphism
         // Square's area is side^2
         return Side*Side;
     } 
+
+    // Square's Perimeter method
+    public override double Perimeter()
+    {
+        // Square's area is side x 4
+        return Side*4;
+    } 
   }  
 }

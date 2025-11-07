@@ -11,5 +11,8 @@ namespace Polymorphism
     {
         // Create an abstract method called Area()
         public abstract double Area();
+
+        // Calculate the perimeter
+        public abstract double Perimeter();
     }
 }
