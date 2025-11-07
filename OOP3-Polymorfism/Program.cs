@@ -13,12 +13,12 @@
             Geometry[] shapes = { circle, square, rectangle};
 
             // Polymophism in action: Same method call (Area()), different behavior.
-            // Each shape calculates area differentlly base on its actual type
+            // Each shape calculates area differently base on its actual type
             // Loop through and call Area() on each shape
             foreach (var shape in shapes)
             {
-                // shape.Area() callst the correct override for each shape type
-                Console.WriteLine($"Area of {shape.GetType().Name}: {shape.Area(): F2}");
+                // shape.Area() calls the correct override for each shape type
+                Console.WriteLine($"Area of {shape.GetType().Name}: {shape.Area():F2}");
             }
         }
     }
