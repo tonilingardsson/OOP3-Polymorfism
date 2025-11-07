@@ -6,12 +6,13 @@
         {
             // Geometry is the base class, and it points to its children: circle, square, and rectangle
             Geometry circle = new Circle(); // Same type (Geometry)
+            Geometry circleD = new Circle(8); // Same type (Geometry)
             Geometry square = new Square(); // but different objects
             Geometry rectangle = new Rectangle();
             Geometry triangle = new Triangle();
 
             // Store all the shapes in an array
-            Geometry[] shapes = { circle, square, rectangle, triangle};
+            Geometry[] shapes = { circle, circleD, square, rectangle, triangle};
 
             // Polymophism in action: Same method call (Area()), different behavior.
             // Each shape calculates area differently base on its actual type
