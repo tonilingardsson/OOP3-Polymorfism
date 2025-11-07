@@ -8,9 +8,10 @@
             Geometry circle = new Circle(); // Same type (Geometry)
             Geometry square = new Square(); // but different objects
             Geometry rectangle = new Rectangle();
+            Geometry triangle = new Triangle();
 
             // Store all the shapes in an array
-            Geometry[] shapes = { circle, square, rectangle};
+            Geometry[] shapes = { circle, square, rectangle, triangle};
 
             // Polymophism in action: Same method call (Area()), different behavior.
             // Each shape calculates area differently base on its actual type
