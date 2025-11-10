@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OOP3-Polymorfism")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+18c6feba4a8f7b606a2b2eb2d023b9b503232209")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d993f27beeff675c9220ed53cdba53417ac4311f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OOP3-Polymorfism")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OOP3-Polymorfism")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

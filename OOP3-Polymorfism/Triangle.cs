@@ -10,38 +10,38 @@ namespace Polymorphism
     {
         // Declaring triangle's properties and their types
         public double Base {get; set;}
-        public double Height {get; set;}
+        public double THeight {get; set;}
         public double Hypotenuse {get; set;}
 
         // Constructor for Triangle
         public Triangle()
         {
             Base = 3;
-            Height = 4;
+            THeight = 4;
             // Calculate hypotenuse for right triangle
-            Hypotenuse = Math.Sqrt(Base * Base + Height * Height); // = 5
+            Hypotenuse = Math.Sqrt(Base * Base + THeight * THeight); // = 5
 
         }
 
         // Parameterized method
-        public Triangle(double _base, double height)
+        public Triangle(double _base, double tHeight)
         {
             Base = _base;
-            Height = height;
+            THeight = tHeight;
             // Calculate hypotenuse for right triangle
-            Hypotenuse = Math.Sqrt(Base * Base + Height * Height);
+            Hypotenuse = Math.Sqrt(Base * Base + THeight * THeight);
         }
 
         // Declaring Triangle's method for its area
         public override double Area()
         {
-            return Base * Height /2;
+            return Base * THeight /2;
         }
 
         // Triangle's Perimeter method 
         public override double Perimeter()
         {
-            return Base + Height + Hypotenuse;
+            return Base + THeight + Hypotenuse;
         }
     }
 }
